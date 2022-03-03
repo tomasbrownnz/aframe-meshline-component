@@ -831,7 +831,7 @@
 	    this.setValues(parameters)
 	  }
 
-	  MeshLineMaterial.prototype = Object.create(THREE.ShaderMaterial.prototype)
+	  MeshLineMaterial.prototype = Object.create(new THREE.ShaderMaterial.prototype)
 	  MeshLineMaterial.prototype.constructor = MeshLineMaterial
 	  MeshLineMaterial.prototype.isMeshLineMaterial = true
 
